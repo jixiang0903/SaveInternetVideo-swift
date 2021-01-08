@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.2.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Moya (~> 14.0.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Moya
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 77b52dadbeff31bc2868ad3e0997083cad62fc9d
+
+COCOAPODS: 1.9.3

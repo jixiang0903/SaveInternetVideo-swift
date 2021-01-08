@@ -1,0 +1,6 @@
+module Pods_SaveInternetVideo_swift {
+  umbrella header "Pods-SaveInternetVideo-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

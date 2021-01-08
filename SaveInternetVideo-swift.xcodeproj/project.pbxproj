@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B68006FBE89610BA2E0386 /* libPods-SaveInternetVideo-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A112F032511BD42A0ADBA39 /* libPods-SaveInternetVideo-swift.a */; };
+		CBE6762B25A7F163001F123C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6762A25A7F163001F123C /* AppDelegate.swift */; };
+		CBE6762D25A7F163001F123C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6762C25A7F163001F123C /* SceneDelegate.swift */; };
+		CBE6762F25A7F163001F123C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6762E25A7F163001F123C /* ViewController.swift */; };
+		CBE6763225A7F163001F123C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE6763025A7F163001F123C /* Main.storyboard */; };
+		CBE6763425A7F169001F123C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE6763325A7F169001F123C /* Assets.xcassets */; };
+		CBE6763725A7F169001F123C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE6763525A7F169001F123C /* LaunchScreen.storyboard */; };
+		CBE6764225A7F169001F123C /* SaveInternetVideo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6764125A7F169001F123C /* SaveInternetVideo_swiftTests.swift */; };
+		CBE6764D25A7F169001F123C /* SaveInternetVideo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6764C25A7F169001F123C /* SaveInternetVideo_swiftUITests.swift */; };
+		CBE6765E25A7F25E001F123C /* JXVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6765D25A7F25E001F123C /* JXVideoPlayerViewController.swift */; };
+		CBE6768225A7FCB3001F123C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767825A7FCB3001F123C /* 5.jpg */; };
+		CBE6768325A7FCB3001F123C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767925A7FCB3001F123C /* 3.jpg */; };
+		CBE6768425A7FCB3001F123C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767A25A7FCB3001F123C /* 1.jpg */; };
+		CBE6768525A7FCB3001F123C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767B25A7FCB3001F123C /* 4.jpg */; };
+		CBE6768625A7FCB3001F123C /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767C25A7FCB3001F123C /* 6.jpg */; };
+		CBE6768725A7FCB3001F123C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767D25A7FCB3001F123C /* 2.jpg */; };
+		CBE6768825A7FCB3001F123C /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767E25A7FCB3001F123C /* 7.jpg */; };
+		CBE6768925A7FCB3001F123C /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6767F25A7FCB3001F123C /* 8.jpg */; };
+		CBE6768A25A7FCB3001F123C /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6768025A7FCB3001F123C /* 0.jpg */; };
+		CBE6768B25A7FCB3001F123C /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE6768125A7FCB3001F123C /* 9.jpg */; };
+		CBE6769125A7FCDE001F123C /* GGirlsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE6768F25A7FCDE001F123C /* GGirlsCell.swift */; };
+		CBE6769225A7FCDE001F123C /* GGirlsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE6769025A7FCDE001F123C /* GGirlsCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBE6763E25A7F169001F123C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE6761F25A7F163001F123C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE6762625A7F163001F123C;
+			remoteInfo = "SaveInternetVideo-swift";
+		};
+		CBE6764925A7F169001F123C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE6761F25A7F163001F123C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE6762625A7F163001F123C;
+			remoteInfo = "SaveInternetVideo-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A112F032511BD42A0ADBA39 /* libPods-SaveInternetVideo-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaveInternetVideo-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87282012D4C4E3FB7C196804 /* Pods-SaveInternetVideo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveInternetVideo-swift.release.xcconfig"; path = "Target Support Files/Pods-SaveInternetVideo-swift/Pods-SaveInternetVideo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		B6E65F455D7F0CF71952EABF /* Pods-SaveInternetVideo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveInternetVideo-swift.debug.xcconfig"; path = "Target Support Files/Pods-SaveInternetVideo-swift/Pods-SaveInternetVideo-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE6762725A7F163001F123C /* SaveInternetVideo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SaveInternetVideo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE6762A25A7F163001F123C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBE6762C25A7F163001F123C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBE6762E25A7F163001F123C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBE6763125A7F163001F123C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE6763325A7F169001F123C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE6763625A7F169001F123C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBE6763825A7F169001F123C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE6763D25A7F169001F123C /* SaveInternetVideo-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SaveInternetVideo-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE6764125A7F169001F123C /* SaveInternetVideo_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveInternetVideo_swiftTests.swift; sourceTree = "<group>"; };
+		CBE6764325A7F169001F123C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE6764825A7F169001F123C /* SaveInternetVideo-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SaveInternetVideo-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE6764C25A7F169001F123C /* SaveInternetVideo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveInternetVideo_swiftUITests.swift; sourceTree = "<group>"; };
+		CBE6764E25A7F169001F123C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE6765D25A7F25E001F123C /* JXVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JXVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		CBE6766925A7F714001F123C /* SaveInternetVideo-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaveInternetVideo-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBE6767825A7FCB3001F123C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		CBE6767925A7FCB3001F123C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CBE6767A25A7FCB3001F123C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CBE6767B25A7FCB3001F123C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CBE6767C25A7FCB3001F123C /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		CBE6767D25A7FCB3001F123C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CBE6767E25A7FCB3001F123C /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		CBE6767F25A7FCB3001F123C /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		CBE6768025A7FCB3001F123C /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		CBE6768125A7FCB3001F123C /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		CBE6768F25A7FCDE001F123C /* GGirlsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGirlsCell.swift; sourceTree = "<group>"; };
+		CBE6769025A7FCDE001F123C /* GGirlsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GGirlsCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE6762425A7F163001F123C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B68006FBE89610BA2E0386 /* libPods-SaveInternetVideo-swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE6763A25A7F169001F123C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE6764525A7F169001F123C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A3F60B347CD3DB8BF7798E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6E65F455D7F0CF71952EABF /* Pods-SaveInternetVideo-swift.debug.xcconfig */,
+				87282012D4C4E3FB7C196804 /* Pods-SaveInternetVideo-swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE29DBE6E5C5A64F665995C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A112F032511BD42A0ADBA39 /* libPods-SaveInternetVideo-swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBE6761E25A7F163001F123C = {
+			isa = PBXGroup;
+			children = (
+				CBE6762925A7F163001F123C /* SaveInternetVideo-swift */,
+				CBE6764025A7F169001F123C /* SaveInternetVideo-swiftTests */,
+				CBE6764B25A7F169001F123C /* SaveInternetVideo-swiftUITests */,
+				CBE6762825A7F163001F123C /* Products */,
+				3A3F60B347CD3DB8BF7798E4 /* Pods */,
+				AE29DBE6E5C5A64F665995C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE6762825A7F163001F123C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE6762725A7F163001F123C /* SaveInternetVideo-swift.app */,
+				CBE6763D25A7F169001F123C /* SaveInternetVideo-swiftTests.xctest */,
+				CBE6764825A7F169001F123C /* SaveInternetVideo-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE6762925A7F163001F123C /* SaveInternetVideo-swift */ = {
+			isa = PBXGroup;
+			children = (
+				CBE6767725A7FC91001F123C /* resource */,
+				CBE6762A25A7F163001F123C /* AppDelegate.swift */,
+				CBE6762C25A7F163001F123C /* SceneDelegate.swift */,
+				CBE6762E25A7F163001F123C /* ViewController.swift */,
+				CBE6768F25A7FCDE001F123C /* GGirlsCell.swift */,
+				CBE6769025A7FCDE001F123C /* GGirlsCell.xib */,
+				CBE6765D25A7F25E001F123C /* JXVideoPlayerViewController.swift */,
+				CBE6763025A7F163001F123C /* Main.storyboard */,
+				CBE6763325A7F169001F123C /* Assets.xcassets */,
+				CBE6763525A7F169001F123C /* LaunchScreen.storyboard */,
+				CBE6763825A7F169001F123C /* Info.plist */,
+				CBE6766925A7F714001F123C /* SaveInternetVideo-swift-Bridging-Header.h */,
+			);
+			path = "SaveInternetVideo-swift";
+			sourceTree = "<group>";
+		};
+		CBE6764025A7F169001F123C /* SaveInternetVideo-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE6764125A7F169001F123C /* SaveInternetVideo_swiftTests.swift */,
+				CBE6764325A7F169001F123C /* Info.plist */,
+			);
+			path = "SaveInternetVideo-swiftTests";
+			sourceTree = "<group>";
+		};
+		CBE6764B25A7F169001F123C /* SaveInternetVideo-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE6764C25A7F169001F123C /* SaveInternetVideo_swiftUITests.swift */,
+				CBE6764E25A7F169001F123C /* Info.plist */,
+			);
+			path = "SaveInternetVideo-swiftUITests";
+			sourceTree = "<group>";
+		};
+		CBE6767725A7FC91001F123C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CBE6768025A7FCB3001F123C /* 0.jpg */,
+				CBE6767A25A7FCB3001F123C /* 1.jpg */,
+				CBE6767D25A7FCB3001F123C /* 2.jpg */,
+				CBE6767925A7FCB3001F123C /* 3.jpg */,
+				CBE6767B25A7FCB3001F123C /* 4.jpg */,
+				CBE6767825A7FCB3001F123C /* 5.jpg */,
+				CBE6767C25A7FCB3001F123C /* 6.jpg */,
+				CBE6767E25A7FCB3001F123C /* 7.jpg */,
+				CBE6767F25A7FCB3001F123C /* 8.jpg */,
+				CBE6768125A7FCB3001F123C /* 9.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE6762625A7F163001F123C /* SaveInternetVideo-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE6765125A7F169001F123C /* Build configuration list for PBXNativeTarget "SaveInternetVideo-swift" */;
+			buildPhases = (
+				801D7B2A719AF5A946E54176 /* [CP] Check Pods Manifest.lock */,
+				CBE6762325A7F163001F123C /* Sources */,
+				CBE6762425A7F163001F123C /* Frameworks */,
+				CBE6762525A7F163001F123C /* Resources */,
+				B02AFEDC6D54A4B3F19B7E3F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SaveInternetVideo-swift";
+			productName = "SaveInternetVideo-swift";
+			productReference = CBE6762725A7F163001F123C /* SaveInternetVideo-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBE6763C25A7F169001F123C /* SaveInternetVideo-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE6765425A7F169001F123C /* Build configuration list for PBXNativeTarget "SaveInternetVideo-swiftTests" */;
+			buildPhases = (
+				CBE6763925A7F169001F123C /* Sources */,
+				CBE6763A25A7F169001F123C /* Frameworks */,
+				CBE6763B25A7F169001F123C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE6763F25A7F169001F123C /* PBXTargetDependency */,
+			);
+			name = "SaveInternetVideo-swiftTests";
+			productName = "SaveInternetVideo-swiftTests";
+			productReference = CBE6763D25A7F169001F123C /* SaveInternetVideo-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBE6764725A7F169001F123C /* SaveInternetVideo-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE6765725A7F169001F123C /* Build configuration list for PBXNativeTarget "SaveInternetVideo-swiftUITests" */;
+			buildPhases = (
+				CBE6764425A7F169001F123C /* Sources */,
+				CBE6764525A7F169001F123C /* Frameworks */,
+				CBE6764625A7F169001F123C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE6764A25A7F169001F123C /* PBXTargetDependency */,
+			);
+			name = "SaveInternetVideo-swiftUITests";
+			productName = "SaveInternetVideo-swiftUITests";
+			productReference = CBE6764825A7F169001F123C /* SaveInternetVideo-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE6761F25A7F163001F123C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CBE6762625A7F163001F123C = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					CBE6763C25A7F169001F123C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CBE6762625A7F163001F123C;
+					};
+					CBE6764725A7F169001F123C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CBE6762625A7F163001F123C;
+					};
+				};
+			};
+			buildConfigurationList = CBE6762225A7F163001F123C /* Build configuration list for PBXProject "SaveInternetVideo-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE6761E25A7F163001F123C;
+			productRefGroup = CBE6762825A7F163001F123C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE6762625A7F163001F123C /* SaveInternetVideo-swift */,
+				CBE6763C25A7F169001F123C /* SaveInternetVideo-swiftTests */,
+				CBE6764725A7F169001F123C /* SaveInternetVideo-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE6762525A7F163001F123C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE6768B25A7FCB3001F123C /* 9.jpg in Resources */,
+				CBE6769225A7FCDE001F123C /* GGirlsCell.xib in Resources */,
+				CBE6768A25A7FCB3001F123C /* 0.jpg in Resources */,
+				CBE6768925A7FCB3001F123C /* 8.jpg in Resources */,
+				CBE6768325A7FCB3001F123C /* 3.jpg in Resources */,
+				CBE6768525A7FCB3001F123C /* 4.jpg in Resources */,
+				CBE6768625A7FCB3001F123C /* 6.jpg in Resources */,
+				CBE6768725A7FCB3001F123C /* 2.jpg in Resources */,
+				CBE6763725A7F169001F123C /* LaunchScreen.storyboard in Resources */,
+				CBE6768225A7FCB3001F123C /* 5.jpg in Resources */,
+				CBE6768425A7FCB3001F123C /* 1.jpg in Resources */,
+				CBE6768825A7FCB3001F123C /* 7.jpg in Resources */,
+				CBE6763425A7F169001F123C /* Assets.xcassets in Resources */,
+				CBE6763225A7F163001F123C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE6763B25A7F169001F123C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE6764625A7F169001F123C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		801D7B2A719AF5A946E54176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaveInternetVideo-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02AFEDC6D54A4B3F19B7E3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaveInternetVideo-swift/Pods-SaveInternetVideo-swift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaveInternetVideo-swift/Pods-SaveInternetVideo-swift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaveInternetVideo-swift/Pods-SaveInternetVideo-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE6762325A7F163001F123C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE6762F25A7F163001F123C /* ViewController.swift in Sources */,
+				CBE6762B25A7F163001F123C /* AppDelegate.swift in Sources */,
+				CBE6762D25A7F163001F123C /* SceneDelegate.swift in Sources */,
+				CBE6765E25A7F25E001F123C /* JXVideoPlayerViewController.swift in Sources */,
+				CBE6769125A7FCDE001F123C /* GGirlsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE6763925A7F169001F123C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE6764225A7F169001F123C /* SaveInternetVideo_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE6764425A7F169001F123C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE6764D25A7F169001F123C /* SaveInternetVideo_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBE6763F25A7F169001F123C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE6762625A7F163001F123C /* SaveInternetVideo-swift */;
+			targetProxy = CBE6763E25A7F169001F123C /* PBXContainerItemProxy */;
+		};
+		CBE6764A25A7F169001F123C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE6762625A7F163001F123C /* SaveInternetVideo-swift */;
+			targetProxy = CBE6764925A7F169001F123C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBE6763025A7F163001F123C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE6763125A7F163001F123C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBE6763525A7F169001F123C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE6763625A7F169001F123C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE6764F25A7F169001F123C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE6765025A7F169001F123C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE6765225A7F169001F123C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E65F455D7F0CF71952EABF /* Pods-SaveInternetVideo-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R8Q2NVT8X;
+				INFOPLIST_FILE = "SaveInternetVideo-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JiX.SaveInternetVideo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SaveInternetVideo-swift/SaveInternetVideo-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBE6765325A7F169001F123C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87282012D4C4E3FB7C196804 /* Pods-SaveInternetVideo-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R8Q2NVT8X;
+				INFOPLIST_FILE = "SaveInternetVideo-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JiX.SaveInternetVideo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SaveInternetVideo-swift/SaveInternetVideo-swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBE6765525A7F169001F123C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R8Q2NVT8X;
+				INFOPLIST_FILE = "SaveInternetVideo-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JiX.SaveInternetVideo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaveInternetVideo-swift.app/SaveInternetVideo-swift";
+			};
+			name = Debug;
+		};
+		CBE6765625A7F169001F123C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R8Q2NVT8X;
+				INFOPLIST_FILE = "SaveInternetVideo-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JiX.SaveInternetVideo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaveInternetVideo-swift.app/SaveInternetVideo-swift";
+			};
+			name = Release;
+		};
+		CBE6765825A7F169001F123C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R8Q2NVT8X;
+				INFOPLIST_FILE = "SaveInternetVideo-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JiX.SaveInternetVideo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SaveInternetVideo-swift";
+			};
+			name = Debug;
+		};
+		CBE6765925A7F169001F123C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R8Q2NVT8X;
+				INFOPLIST_FILE = "SaveInternetVideo-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JiX.SaveInternetVideo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SaveInternetVideo-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE6762225A7F163001F123C /* Build configuration list for PBXProject "SaveInternetVideo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE6764F25A7F169001F123C /* Debug */,
+				CBE6765025A7F169001F123C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE6765125A7F169001F123C /* Build configuration list for PBXNativeTarget "SaveInternetVideo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE6765225A7F169001F123C /* Debug */,
+				CBE6765325A7F169001F123C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE6765425A7F169001F123C /* Build configuration list for PBXNativeTarget "SaveInternetVideo-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE6765525A7F169001F123C /* Debug */,
+				CBE6765625A7F169001F123C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE6765725A7F169001F123C /* Build configuration list for PBXNativeTarget "SaveInternetVideo-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE6765825A7F169001F123C /* Debug */,
+				CBE6765925A7F169001F123C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE6761F25A7F163001F123C /* Project object */;
+}
